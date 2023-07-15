@@ -81,7 +81,11 @@
 }
 
 .icon-container h2 {
-    margin: 20px 0px 20px 64px;
+    margin: 20px 0px 0px 64px;
+}
+
+.info-text {
+    padding: 14px 0px;
 }
 
 .info-banner {
