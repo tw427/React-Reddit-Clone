@@ -20,7 +20,7 @@
     box-sizing: border-box;
     padding: 8px;
     width: 312px;
-    background-color: lightblue;
+    background-color: white;
     margin-bottom: 16px;
     border-radius: 12px;
 }
@@ -39,7 +39,7 @@
 
 .prem-icon {
     width: 36px;
-    background-color: white;
+    background-color: black;
 }
 
 .prem-btn {
@@ -59,7 +59,9 @@
     box-sizing: border-box;
     padding: 12px;
     width: 312px;
-    background-color: lightblue;
+    background-color: white;
+    border-radius: 16px;
+    margin-bottom: 16px;
 }
 
 .upper-info {
@@ -93,6 +95,7 @@
     width: 312px;
     height: 24px;
     background-color: rgb(222, 135, 135);
+    border-radius: 16px 16px 0px 0px;
 }
 
 .community-btns {
@@ -108,15 +111,42 @@
     padding: 4px 16px;
     margin: 6px 0px;
     border-radius: 24px;
-    border: none;
 }
 
 .create-post {
     background-color: #0079d3;
     color: white;
+    border: none;
 }
 
 .create-community {
     color: #0079d3;
     background-color: white;
+    border: 1px solid #0079d3;
+}
+
+/* Helpful Information */
+
+.helpful-information {
+    border-radius: 16px;
+    background-color: white;
+    padding: 16px;
+}
+
+.helpful-information a {
+    font-size: 14px;
+    margin-right: 8px;
+    margin-bottom: 4px;
+    text-decoration: none;
+    color: black;
+}
+
+.helpful-top {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
+}
+
+.helpful-center {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
 }

@@ -32,7 +32,25 @@ const SideSection = () => {
           <button className="create-community">Create Community</button>
         </div>
       </div>
-      <div className="helpful-information"></div>
+      <div className="helpful-information">
+        <div className="helpful-top">
+          <a href="/">User Agreement</a>
+          <a href="/">Content Policy</a>
+          <a href="/">Privacy Policy</a>
+          <a href="/">Moderator Code of Conduct</a>
+        </div>
+        <hr></hr>
+        <div className="helpful-center">
+          <a href="/">English</a>
+          <a href="/">Deutsch</a>
+          <a href="/">Français</a>
+          <a href="/">Español</a>
+          <a href="/">Italiano</a>
+          <a href="/">Português</a>
+        </div>
+        <hr></hr>
+        <span>No rights reserved. Built for educational purposes.</span>
+      </div>
     </section>
   );
 };

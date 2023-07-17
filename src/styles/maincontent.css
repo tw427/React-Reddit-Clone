@@ -13,7 +13,7 @@
 #sort-header {
     display: flex;
     align-items: center;
-    background-color: lightblue;
+    background-color: white;
     padding: 10px 12px;
     border-radius: 4px;
     margin-bottom: 10px;
@@ -34,7 +34,7 @@
 
 .hot-sort, .location-sort {
     color: rgb(40, 40, 255);
-    background-color: lightgray;
+    background-color: rgb(224, 224, 224);
 }
 
 .new-sort, .top-sort, .misc-sort {
