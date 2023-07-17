@@ -1,0 +1,58 @@
+.content-card {
+    display: grid;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    grid-template: auto auto 40px / 40px 600px;
+    width: 640px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.voteBar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-column: 1 / 2;
+    grid-row: 1 / -1;
+    width: 40px;
+    background-color: lightgray;
+}
+
+.upvote, .downvote {
+    width: 32px;
+}
+
+.upvote {
+    margin-top: 4px;
+}
+
+.content-header {
+    padding: 8px;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.userPostInfo {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 2px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    max-height: 512px;
+    grid-column: 2 / 3;
+    grid-row: 2/ 3;
+}
+
+.main-content * {
+    max-height: 512px;
+}
+
+.content-options {
+    display: flex;
+    padding: 8px;
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}

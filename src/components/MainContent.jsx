@@ -1,4 +1,5 @@
 import "../styles/maincontent.css";
+import ContentCard from "./ContentCard";
 
 const MainContent = () => {
   return (
@@ -12,7 +13,10 @@ const MainContent = () => {
         <button className="misc-sort">...</button>
         <div className="view-sort">View</div>
       </header>
-      <section className="content"></section>
+      <section className="content">
+        <ContentCard />
+        <ContentCard />
+      </section>
     </main>
   );
 };
